@@ -1,0 +1,127 @@
+.cont1 {
+    text-align: center;
+    background-image: url("./images/Rectangle\ 256.png");
+    color: white;
+}
+
+.cont1 h1 {
+    /* font-family: Poppins; */
+    font-size: 95px;
+    font-weight: 900;
+    line-height: 90px;
+}
+
+.cont1 .btn-primary {
+    background-color: black;
+    border: none;
+    opacity: 0.5;
+    border-radius: 30px;
+}
+
+.bot .btn-primary {
+    background-color: white;
+    color: #48924F;
+    opacity: 1;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.btn-primary {
+
+    --bs-btn-border-color: #fff;
+    --bs-btn-hover-border-color: #fff;
+}
+
+.cont2 h2 {
+    text-align: center;
+    color: #828282;
+    font-family: Poppins;
+    font-size: 64px;
+    font-weight: 800;
+    margin-bottom: 0px;
+}
+
+.vector {
+    height: 50px;
+    margin-top: -25px;
+    padding-left: 430px;
+    padding-bottom: 20px;
+}
+
+.vector2 {
+    height: 50px;
+    margin-top: -25px;
+    padding-left: 650px;
+    padding-bottom: 20px;
+}
+
+.cont2 .col-xl-4 {
+    background: #FFFFFF;
+    box-shadow: 0px 10px 30px 0px #10331E1A;
+
+}
+
+.cont2 h5 {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 900;
+    line-height: 24px;
+    color: #0D4D14;
+}
+
+.cont2 p {
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #0D4D14;
+
+}
+
+.cont3 {
+    text-align: center;
+    background-image: url("./images/Rectangle\ 259.png");
+    color: white;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 70px;
+}
+
+
+
+
+@media screen and (max-width:500px) {
+    .cont1 .btn-primary {
+        font-size: 8px;
+    }
+
+    .cont3 {
+        padding-top: 20px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .cont3 p {
+        margin-top: 10px;
+    }
+    .vector {
+        height: 50px;
+        margin-top: -25px;
+        padding-left: 100px;
+        padding-bottom: 20px;
+    }
+    
+    .vector2 {
+        height: 50px;
+        margin-top: -25px;
+        padding-left: 325px;
+        padding-bottom: 20px;
+    }
+
+}
+
+@media screen and (max-width: 700px) {
+    .cont1 h1 {
+        font-size: 70px;
+    }
+}
